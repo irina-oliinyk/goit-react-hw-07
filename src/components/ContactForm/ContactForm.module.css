@@ -1,0 +1,36 @@
+.form {
+  border: 1px solid springgreen;
+  width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+.field {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 200px;
+  height: 30px;
+  color: blueviolet;
+}
+
+.button {
+  margin-top: 10px;
+  width: 200px;
+  height: 50px;
+  background-color: blueviolet;
+}
+
+.error {
+  font-size: 20px;
+  color: red;
+}
